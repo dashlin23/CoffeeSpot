@@ -1,0 +1,319 @@
+
+.bg-img{
+	background-image: url('/images/banner-bg.png');
+    background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+	text-align: center;
+    margin-top: 75px;
+
+}
+
+.text-container {
+    max-width: 600px; /* The maximum width the element can have */
+    width: 80%; /* Optional, to make sure it takes up the available width if content is smaller */
+  }
+  
+
+
+  .homenav{
+    margin-top: -31px;
+    color: orangered;
+}
+
+.custom-text {
+    font-weight: 700; /* You can adjust this value for different font weights */
+  }
+  
+  .weight-text {
+      font-weight: 900;
+ } 
+
+ .me-text{
+    font-weight: 400;
+ }
+ 
+.road {
+    margin-top: 93px;
+}
+
+.us{
+    color: orangered;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* To center the images horizontally */
+  }
+
+  .gencupspace
+  {
+    margin-left: 120px;
+}
+
+.our-image{
+    color: orangered;
+    font-weight: 700;
+}
+
+.cupspace {
+    margin-left: -9px;
+    margin-right: -13px;
+}
+
+.genCupspace{
+   margin-left: 192px;
+}
+
+
+
+.spacecup {
+margin-bottom: 75px;
+}
+
+.cupig{
+    margin-left: -36px;
+}
+
+.gucpi
+{
+    margin-left: 132px;
+    margin-right: 226px;
+}
+
+.doings{
+    margin-bottom: 47px;
+}
+
+.service-img{
+	background-image: url('/images/services-bg.png');
+    background-size: cover;
+	background-position: center center;
+    background-repeat:repeat-x;
+    min-height: 500px;
+	text-align: center;
+    margin-top: 10px;
+}
+
+.d-service{
+  font-weight: 700;
+}
+
+     /* Add CSS styling for the hover effect */
+     .card-body:hover{
+     
+        color: white;
+    }
+
+    .card-body {
+        background-color: lightsalmon;
+    }
+    .domd{
+        margin-top: 14px;
+    }
+
+    .wonders{
+        margin-top: 43px;
+        margin-left: -2px;
+        color: orangered;
+    }
+
+    #border
+        {
+            inline-size: 90%;
+            block-size: 200px;
+            box-sizing: border-box;
+            border-inline: 1px solid black;
+            animation: mymove 5s infinite;
+          }
+          
+          @keyframes mymove {
+            50% {border-inline: 15px orangered;}
+          }
+
+          .undo {
+            margin: 37px;
+        }
+    
+        .don{
+            margin: 33px;
+            margin-bottom: -24px;
+            color: orangered;
+        }
+
+        .our-number{
+            color: orangered;
+            margin-bottom: 83px;
+        }
+
+        .hey{
+            margin-bottom: 88px;
+        }
+
+    #formbg-img{
+        background-image: url('/images/img-9.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        padding: 20px;
+        margin-left: -105px;
+        width: 59%;
+        height: 494x;
+        margin-bottom: 214px;
+    }
+        
+        .me {
+            width: 30px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 15px;
+        }
+
+        
+        input[type="text"], textarea {
+            width: 70%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 35px;
+        }
+
+        .message-adj{
+            height: 105px;
+        }
+
+        
+        input[type="submit"] {
+            background-color: orangered;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 26px;
+            cursor: pointer;
+            margin-left: 183px;
+            width: 140px;
+        }
+
+    .formin{
+        margin-left: 49px;
+    }
+
+
+  .d-footer{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+  }  
+  footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #000;
+    margin-top: -153px;
+  }
+
+footer .d-footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+} 
+
+footer .d-footer .sec h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+footer .d-footer .sec p
+{
+    color: #ccc;
+    font-family: Arial,  Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.sci{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-gap: 10px;
+    margin-left: -48px;
+    margin-top: 1px;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: #ccc;
+    display: grid;
+    align-content: center;
+    justify-content: center; 
+    text-decoration: none;
+    border-radius: 4px;   
+}
+
+.sci li a:hover
+{
+    background: #fff;
+}
+.sci li a .bi{
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.useful-link{
+    position: relative;
+}
+
+.useful-link{
+    color: #fff;
+}
+
+.useful-link{
+    list-style: none;
+}
+
+.useful-link li a{
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 1px;
+    display: inline-block;
+    font-family: Arial,  Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.useful-link li a:hover{
+    color: blue;
+}
+
+.info{
+    color: #ccc;
+    font-family: Arial,  Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.menu{
+    color: #ccc;
+    font-family: Arial,  Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.copyrighttext
+    {
+        margin-top: 13px;
+    }
+
+    .social
+ {
+        margin-top: 22px;
+        margin-bottom: 16px;
+        margin-left: -15px;
+    }
